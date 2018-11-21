@@ -12,7 +12,7 @@ app.use(express.static('public'));
 
 
 // mongoose.connect('mongodb://localhost/portfoliocontact', { useNewUrlParser: true});
-mongoose.connect(process.env.DB_URL, { useNewUrlParser: true});
+mongoose.connect('mongodb://user:pass123@ds043457.mlab.com:43457/heroku_n6gvl5tq', { useNewUrlParser: true});
 
 
 //Routes
