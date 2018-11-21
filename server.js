@@ -1,6 +1,5 @@
 const express = require('express');
 const mongoose = require('mongoose');
-require('dotenv').config();
 
 
 const PORT = process.env.PORT || 8080;
@@ -12,7 +11,7 @@ app.use(express.static('public'));
 
 
 // mongoose.connect('mongodb://localhost/portfoliocontact', { useNewUrlParser: true});
-mongoose.connect(process.env.DB_URL, { useNewUrlParser: true});
+mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true});
 
 
 //Routes
