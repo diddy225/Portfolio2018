@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 
 
-const PORT = 3000;
+const PORT = process.env.PORT || 8080;
 const app = express();
 
 app.use(express.urlencoded({ extended: true }));
@@ -12,7 +12,7 @@ app.use(express.static('public'));
 
 
 // mongoose.connect('mongodb://localhost/portfoliocontact', { useNewUrlParser: true});
-mongoose.connect('mongodb://user:pass123@ds043457.mlab.com:43457/heroku_n6gvl5tq', { useNewUrlParser: true});
+mongoose.connect(process.env.DB_URL, { useNewUrlParser: true});
 
 
 //Routes
