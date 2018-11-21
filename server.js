@@ -10,9 +10,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('public'));
 
-//MongoDB Connect
+
 // mongoose.connect('mongodb://localhost/portfoliocontact', { useNewUrlParser: true});
-mongoose.connect(`mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@ds043457.mlab.com:43457/heroku_n6gvl5tq`, { useNewUrlParser: true});
+mongoose.connect(process.env.DB_URL, { useNewUrlParser: true});
 
 
 //Routes
