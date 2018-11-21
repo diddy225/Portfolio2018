@@ -16,8 +16,8 @@ mongoose.connect(`mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@ds0434
 
 
 //Routes
-require('./routes/html-routes')(app);
-require('./routes/api-routes')(app);
+require('./routes/html-routes.js')(app);
+require('./routes/api-routes.js')(app);
 
 app.listen(PORT, function() {
   console.log(`App now listening on port ${PORT}`);
