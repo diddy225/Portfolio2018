@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Professional Portfolio",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Matthew Carpenter Sr",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "gsap": "^2.0.2",
+    "jquery.marquee": "^1.5.0",
+    "mongoose": "^5.3.8",
+    "scrollmagic": "^2.0.6"
+  }
+}
