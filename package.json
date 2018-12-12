@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server.js"
   },
-  "author": "Matthew Carpenter Sr",
+  "author": "Matthew Carpenter",
   "license": "MIT",
   "devDependencies": {
     "nodemon": "^1.18.5"
