@@ -1,7 +1,7 @@
 # Portfolio2018
 
 
-# Homework 3 - Portfolio Continuation, Reading, and JavaScript Activity
+# Homework 3 .  - Portfolio Continuation, Reading, and JavaScript Activity
 
 There are **3 parts** to this homework. The homework is only complete if **all** parts are submitted.
 
